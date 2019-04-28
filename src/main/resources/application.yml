@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      host: 10.62.109.136
+      port: 27017
+      database: DIT1
+server:
+  port: 9109
