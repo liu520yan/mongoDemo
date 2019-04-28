@@ -1,0 +1,10 @@
+db.getCollection('Inventories').update(
+{
+  "productCode":"80WK0104LM",
+  "$where":"this.stocks.MX_Public.available >= this.stocks.MX_Public.reserved",
+  "stocks.MX_Public.reserved":{
+    "$exists":true
+  }
+},
+{ "$inc" : { "stocks.MX_Public.reserved" : 50}}
+)
