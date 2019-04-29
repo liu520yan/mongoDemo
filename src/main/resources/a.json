@@ -1,0 +1,26 @@
+{
+  "_id" : ObjectId("5cc098b7d1b2e9553c4c4c2e"),
+  "productCode" : "80WK0104LM",
+  "leadTimes" : {
+    "UY" : 0,
+    "PE" : 0,
+    "PY" : 0,
+    "MX" : 6,
+    "CO" : 6,
+    "BO" : 0,
+    "EC" : 0,
+    "VE" : 6
+  },
+  "stocks" : {
+    "MX_Public" : {
+      "available" : 14,
+      "reserved" : -10.0,
+      "overselling" : 0,
+      "realtime" : true,
+      "inStockStatus" : "notSpecified"
+    },
+    "default" : {
+      "reserved" : 200.0
+    }
+  }
+}
